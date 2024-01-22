@@ -4,7 +4,7 @@ project(sfml-project VERSION 0.1.0)
 # As std::auto_ptr was removed in C++17, sfml-audio fails to compile
 # with following CXX standards. So instead of setting a global standard
 # this template sets CXX_STANDARD to 17 using set_property.
-# set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 17)
 # set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Copy all the required SFML libs and main executable to bin/
