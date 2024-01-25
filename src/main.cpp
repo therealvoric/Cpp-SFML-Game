@@ -4,8 +4,8 @@
 
 int main()
 {
-    auto title = "Template-" + GetTemplateVersion() + "/SFML-" + GetSFMLVersion();
-    sf::RenderWindow window(sf::VideoMode(800, 600), title, sf::Style::Close);
+    auto title = "SFML Game" ;
+    sf::RenderWindow window(sf::VideoMode(1920, 1080), title, sf::Style::None);
 
     sf::Texture texture;
     sf::Sprite sprite;
